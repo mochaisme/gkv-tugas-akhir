@@ -41,7 +41,7 @@ body {
 
 #geo_chart_div, #piechart {
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 #columnchart_container {
@@ -55,63 +55,53 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #columnchart_material {
   width: 90%;
   height: 800px;
-  padding: 20px;
+  padding: 0;
   box-sizing: border-box;
   background: #fff;
   border-radius: 8px;
   margin: 20px 0;
 }
 
-h1 {
+#title-container h1 {
   margin-top: 20px;
-  font-family: 'Georgia', serif; 
-  font-size: 32px; 
-  text-align: center;
-}
-
-h2 {
   font-family: 'Georgia', serif;
-  font-size: 24px; 
-  color: #333;
+  font-size: 32px;
   text-align: center;
 }
 
-h3 {
-  font-family: 'Georgia', serif;
-  font-size: 18px; 
-  color: #333;
+#button-container {
   text-align: center;
-  /* Add the following */
-  max-width: 1000px; /* Adjust as needed to control line wrapping */
-  margin: 0 auto;  /* Center the h3 element horizontally */
+  margin: 20px 0;
 }
 
-h4 {
-  font-family: 'Georgia', serif;
-  font-size: 24px; 
-  color: #333;
+#button-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#button-container button:hover {
+  background-color: #45a049;
+}
+
+.content {
+  width: 80%;
+  max-width: 1200px;
   text-align: center;
-  /* Add the following */
-  max-width: 1400px; /* Adjust as needed to control line wrapping */
-  margin: 0 auto;  /* Center the h3 element horizontally */
+  margin: 20px 0;
 }
 
-.container {
-  display: flex; /* Mengaktifkan flexbox */
-  justify-content: space-around; /* Memberi jarak antar elemen */
-  align-items: center; /* Menyelaraskan elemen secara vertikal */
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
 }

@@ -60,7 +60,7 @@ function drawCharts() {
 
   var pieData = google.visualization.arrayToDataTable([
     ['Status', 'Jumlah'],
-    ['Sudah menggunakan teknologi', 3982372],
+    ['Sudah menggunakan teknologi', 2603609],
     ['Belum menggunakan teknologi', 3579400]
   ]);
 
